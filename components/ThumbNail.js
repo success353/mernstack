@@ -11,7 +11,7 @@ const ThumbNail = ({ result }) => {
                 width={1920}
             />
             <div>
-                <p className='truncate'>{result.overview}</p>
+                <p className='truncate max-w-md'>{result.overview}</p>
             </div>
         </div>
     );
